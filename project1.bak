@@ -295,7 +295,7 @@ Wilmott Magazine 54, pp.61-73<br>
     <!-- wrapper end --><!-- navi -->
     <div id="hpb-nav">
       <ul>
-        <li id="nav-toppage"><a href="home.html"><b><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝">Home </font>　</span></b><span class="en"></span></a>
+        <li id="nav-toppage"><a href="index.html"><b><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝">Home </font>　</span></b><span class="en"></span></a>
         <li id="nav-concept"><a href="research2.html"><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝"><b>Research(in English)</b></font></span><span class="en"></span></a>
 	<li id="nav-concept"><a href="research2j.html"><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝"><b>Research(in Japanese)</b></font></span><span class="en"></span></a>
         <li id="nav-service"><a href="project1.html"><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝"><b>Project</b></font></span><span class="en"></span></a>
