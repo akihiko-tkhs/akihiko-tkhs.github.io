@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 17.0.7.0 for Windows">
+<title>Akihiko Takahashi</title>
+<link rel="stylesheet" href="hpbparts.css" type="text/css" id="hpbparts">
+<link rel="stylesheet" href="container_1Ba_2c_left.css" type="text/css" id="hpbcontainer">
+<link rel="stylesheet" href="main_1Ba_2c.css" type="text/css" id="hpbmain">
+<link rel="stylesheet" href="user.css" type="text/css" id="hpbuser">
+</head>
+<body id="hpb-template-01-02a-01" class="hpb-layoutset-01"><!-- container -->
+<div id="hpb-container">
+  <!-- header -->
+  <div id="hpb-header">
+    <div id="hpb-headerMain">
+      <p style="text-align : center;" align="center"><font size="+4" style="font-size : 310%;"><img src="logo112.gif" width="548" height="56" border="0" style="border-top-width : 0px;border-left-width : 0px;border-right-width : 0px;border-bottom-width : 0px;" alt="Akihiko Takahashi Homepage"></font></p>
+    </div>
+    <div id="hpb-headerExtra1">
+      <p class="tel"><span></span></p>
+    </div>
+  </div>
+  <!-- header end --><!-- inner -->
+  <div id="hpb-inner">
+    <!-- wrapper -->
+    <div id="hpb-wrapper">
+      <!-- page title -->
+      <div id="hpb-title" class="hpb-top-image" style="background-image : url(top_mainimg_1Ba_0113.png);"></div>
+      <!-- page title end --><!-- main -->
+      <div id="hpb-main">
+        <!-- toppage -->
+        <div id="toppage">
+          <div id="toppage-topics">
+            <p style="background-image : url(navitembg_1Ba_011.png);
+	text-align : center;
+" align="center"><font size="5" color="#ffffff">「金融危機後のデリバティブ市場と金融工学」</font> </p>
+            <hr>
+          </div>
+          <div id="toppage-news">
+            <h3><span class="en"><font size="5" style="font-size : 150%;">金利デリバティブ市場の変質に対応したモデリング</font></span><span class="ja">新着情報</span></h3>
+            <p><font size="3">・時期：2009年5月より</font></p>
+            <p><FONT size="3">・メンバー：藤井優成、高橋明彦</FONT></p>
+            <p><FONT size="3">・目的：デリバティブ商品の公正価値算定及びデリバティブ・ポートフォリオのリスク管理精度の向上</FONT></p>
+            <p><font size="+1">I．はじめに（研究会の問題意識等）</font></p>
+            <p><font size="3">1. ９０年代後半からリーマンショックを経て、取引相手、自社の信用力を補完せずには市場取引をできない傾向が強まり、担保付きのスワップ取引が増加、金融機関同士の取引はほぼ担保付きになった。<br>
+            </font></p>
+            <P><font size="3"><BR>
+            2. 一方、将来の期待キャッシュフローの割引現在価値の計算に依然LIBORを使用。 </font><P><font size="3" style="font-size : 150%;">→</font><font size="3">　高格付け銀行間の無担保オファーレートに相当するLiborは割引率として不適当。</font></P>
+            <P><font size="3">スワップ取引が担保付きか否かにより、異なる割引率を用いる必要。<BR>
+            </font></P>
+            <P><font size="3"><BR>
+            3. さらに、近年、クロスカレンシースワップ(CCS)などの通貨が異なるキャッシュフローのスワップ取引のみならず、異なるテナー（３ｍ⇔６ｍなど）のLiborを交換するテナースワップにおいてもスプレッドが明らかに存在し拡大基調。</font></P>
+            <P><font size="3"><BR>
+            4. 信用リスクに対する不安が払しょくされなければ、担保付き取引はさらに拡大。</font>
+            <P><font size="3" style="font-size : 150%;">→</font><font size="3">　従来の“LIBOR 割引”の計算方法では、取引の価値やそのヘッジコストの適切な評価が不可能。</font></P>
+            <p><font size="3">担保がない取引においては、クレジット・リスク・プレミアムを控除し、価値評価を適正化する必要。さらに、信用リスクに対する規制の強化、または、中央清算機関への移行に伴い、担保取引の標準化が進展すると予想される。</font></p>
+            <P><font size="3"><BR>
+            5. さらに、従来のLibor Market Model(LMM)などの実務で使用されている金利モデルは、このような新しい状況に対応しておらず、適切な価格評価、リスクエクスポージャー及びヘッジの計算が不可能。</font></P>
+            <P><font size="3"><BR>
+            　　以上の認識に基づき、 本研究会では、異種通貨の担保付き取引にも対応した新しい「金利の期間構造モデル」を提示した。以下の論文（１０）に関連して、担保契約の詳細が派生商品価格に大きな影響を及ぼすことが明らかになり、今後、担保運用管理技術が及ぼす影響、並びに担保と信用リスクの相互の影響も研究していく。特に、資金調達コストと市場全体の信用リスクは相関をもつことが予想され、担保として許容される資産と当該取引の詳細が重要になることが予想される。<BR>
+            　　2010年度のLCH.Clearnet group　のスワップ清算機関である Swapclearの価格評価方法の変更にも表れている通り、市場のベンチマークは担保コストを取り入れた評価方法に移行しつつあるように考えられる。中央清算機関の設立や、先進的な金融機関による担保管理並びに清算サービスの提供などの新しいビジネスモデルの出現もあり、今後とも付随する担保契約の詳細を精緻に評価する方法の重要性は大きいと考える。</font></P>
+            <P><font size="3"><BR>
+			<br>
+            「最近の主要金融機関の動向について」<BR>
+            　　CSAに基づく担保契約が存在する金融取引、及び、無担保の取引それぞれに対して、価格 評価とその運用への移行状況に関するアンケート調査の結果が、２０１１年１０月、大手 監査‐コンサルティングファームの一つであるKPMGにより発表された。
+			   この調査は１０カ国の１８銀行に対して行われたが、CSAの付随する金融取引の価格評価は担保利率ベース の新しい枠組みに収斂しつつあることがはっきりと見てとれる。 
+			   主要８行に関しては、金利派生商品を中心に運用への移行が既に完了しており、それ以外の為替・株・信用リスク等が関わる金融商品に関しても、大部分の金融機関が適用の拡大を計画中であることがわかる。
+			   残りの中規模10行においては、まだ運用段階にな いものの、その多くが金利派生商品を中心に実装を計画中としている。
+			   また、我々は本プロジェクト発足当初より、担保通貨選択が価格評価に及ぼす影響を強調してきたわけ であるが、今回、主要８行中５行は、担保通貨の違いを割引率の違いにすでに反映させていることが見てとれる。
+			   更に、現在考慮できていない主要行の全てと、中規模行の半数 以上がその実装を計画中であると解答している。
+			   このレポート中でKPMGは、大手清算機関が担保利率ベースの枠組みを採用したこと、及び今後の規制強化において金融取引の清算機関への移行が強く推進されることに触れ、担保契約の影響を価格評価に反映させる枠組みへの移行の動きはもはや後戻り出来ないと論じている。
+			   　 なお、このレポートの中で、担保契約が存在する場合の価格評価に関する理論的な裏付けとして、本プロジェクトの研究成果である論文‐No.（(1)、(2)、(3)）が引用されている。<BR></font></P>
+			<p><font size="3">
+			（a)は実務家向け専門書の中で、金融危機や新金融規制に伴い重要性の増している標準的な担保契約に関する、本研究の主要結果 ((b),(c)他、数本) をまとめたものであり、著名な学者や実務家が参加する国際会議である
+			Global Derivatives Trading & Risk Managementを中心に7回の招待講演を行った。また、数量ファイナンスに関する国際ワークショップを6度共催し、研究者間の交流に寄与した。現在、(a)にある主要論文3本の被引用回数は
+			計227（Google Scholar）であり、関連論文・資料も含めると計326に及ぶ。最も代表的な金利モデル(BGMモデル)の開発者の１人であるA. Braceは論文「Primer: Curve Stripping with Full Collateralization」及び
+			「Primer: The FST theorem for pricing with foreign collateral」中で「Fujii-Shimada-Takahashi Theorem」として本研究を詳述している。また、「Counterparty Credit Risk, Collateral and Funding」 
+			(Wiley、2013, Prof. Brigo et al., Imperial College London)を始め、金融危機以降に出版された少なくとも2１巻の金融商品・リスク管理に関する教科書や専門書 で引用・解説されている。（詳しくは「ファイナンスの教科書への引用」を参照のこと）。
+			経済のみならず、海外の（応用）数学科やビジネススクールを中心に計18本の修士・博士論文でも取り上げられ、当該市場への適用やその拡張が研究されており、分野横断的に国際教育に貢献している。 
+			<br>		
+            </font></p>
+            <p><font size="3">
+            <br>&bull; （a）"Interest Rate Modelling under Full Collateralisation," <br>
+『Interest Rate Modelling after the Financial Crisis』, <br>
+M.Bianchetti、M.Morini　編著 Risk books, Incisive Media "第６章　pp.241-282"<br>
+11,June, 2013
+<a href="http://riskbooks.com/interest-rate-modelling-after-the-financial-crisis">http://riskbooks.com/interest-rate-modelling-after-the-financial-crisis</a>
+            <br>
+            &bull; (b)藤井優成、高橋明彦(2011)<br>
+ "Choice of Collateral Currency," <br>
+Risk Magazine ,January, pp.120-125<br>
+
+<br>
+            &bull;（c）藤井優成、嶋田康史、高橋明彦(2011) <br>
+            "A Market Model of Interest Rates with Dynamc Basis Spreads in the presence of Collateral and Multiple Currencies," <br>
+Wilmott Magazine 54, pp.61-73<br>
+<br>
+<br>
+また、本研究は、外貨担保や他資産による担保の差替えに伴う権利が、派生商品価格に有意な影響を与える事とその具体的な評価方法を初めて明らかにした。多くの実務書において取り上げられている他、世界最大の社会科学論文サイト(SSRN)からの関連論文のダウンロード数は13,000を超え、実務家からの引用も多い。四大監査法人の一つKPMGによる記事「New valuation and pricing approaches for derivatives in the wake of the financial crisis」（本研究3論文を引用）からは、10カ国18金融機関へのアンケート調査から、本手法が広く標準的に使われている事が判る。主要計算ソフトMATLABは2014以降のリリースにおいてDual-Curve Bootstrappingで本研究を利用している。本研究は派生商品価格への影響を明示出来た事で、ISDA等、業界団体による担保契約の標準化を促し、金融危機後の金融市場の円滑化に大きく寄与している。
+
+			<br>
+			<p><font size="3">
+			発表、論文等で我々の研究を引用した実務家の所属機関のリスト<br>
+               <br>
+            Barclays Capital　　　　　　　　　　　　　　Bank of America Merrill Lynch	<br>		   
+			Banca IMI　　　　　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;BBVA<br>
+            Bank of Mitsubishi Tokyo UFG　　　　　　　&nbsp;Bloomberg LP<br> 
+            BNP Paribas　　　　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;Danske Markets<br>
+            Deutsche Pfandbriefbank AG　　　　　　　　DRW Trading Group<br>
+            Iason Limited　　　　　　　　　　　　　　　&nbsp;Infiniti Derivatives<br>
+            KPMG　　　　　　　　　　　　　　　　　　　Lloyds Banking Group<br>
+            Murex　　　　　　　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;Nordea <br>
+            National Australia Bank　　　　　　　　　　&nbsp;&nbsp;Numerix <br>
+            Nomura　　　　　　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;RBC Financial Group<br> 
+            UBS　　　　　　　　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;XAIA Investment<br>
+            Open Gamma　　　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;&nbsp;Bank of Japan<br>
+            日本生命基礎研究所　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;World Bank<br>
+            NATIXIS　　　　　　　　　　　　　　　　　&nbsp;&nbsp;&nbsp;Alfa-Bank<br>
+            Bank of New York Mellon　　　　　　　　　&nbsp;&nbsp;&nbsp;JP Morgan<br>
+            Citibank<br>
+			<br>
+			ファイナンスの教科書・専門書への引用<br>
+			<br>
+1 『Interest Rate Modeling, Vol I, II, III』(2010)<br>
+2 『Kreditderivate und Kreditrisiko-modelle』(2011)<br>
+3 『Mastering Investment Banking Securities』(2012)<br>
+4 『Discounting, LIBOR, CVA and Funding』(2012)<br>
+5 『Interest Rate Modeling after the Financial Crisis』(2013)<br>
+ 6『Counterparty Credit Risk, Collateral, and Funding Costs』(2013)<br>
+ 7『Counterparty Risk and Funding』(2013)<br>
+ 8『Measuring and Managing Liquidity Risk』(2013)<br>
+ 9『Treasury Finance and Development Banking』(2013)<br>
+ 10『Handbook on Systemic Risk』(2013)<br>
+ 11『C# for Financial Markets』(2013)<br>
+12 『The Front Office Manual: the definitive guide to trading, structuring and sales』(2013)<br>
+13『Interest Rate Modeling in the Multi-Curve Framework』(2014)<br>
+ 14『Interest Rate Derivatives Explained: Products and Markets』(2015)<br>
+ 15『Pricing Derivatives in the New Framework: OIS discounting, CVA, DVA & FVA (2015)<br>
+ 16『XVA Desks-A New Era for Risk Management』(2015)<br>
+ 17『XVA: Credit, Funding and Capital Valuation Adjustments』(2015)<br>
+ 18『The xVA Challenge: Counterparty Credit Risk, Funding, Collateral, and Capital』(2015)<br>
+ 19『Interest Rate Modeling: Post-Crisis Challenges and Approaches』(2016)<br>
+ 20『Handbook of Fixed-Income Securities』(2016) (Petro Veronesi edt)<br>
+ 21『The XVA of Financial Derivatives: CVA,DVA and FVA explained』(2015)<br>
+			<br>
+			</p>
+			<p><font size="4">II. これまでの活動</font></p>
+            <p><font size="3">1. 学会・セミナーの開催</font></p>
+            　　
+            <ul style="list-style-type : none">
+              <li><font size="4">2013 9/26,27 <a href="conference17.html">Conference : NUS-UTokyo Workshop on Quantitative Finance</a></font>
+	    
+            </ul>
+            <p><font size="3"><br>
+          2. 発表論文・資料 (downloadble pdf)</font></p>
+            <ul style="list-style-type : none">
+              <li><b><font size="3">(16)Perturbative Expansion Technique for Non-linear FBSDEs with Interacting
+              Particle Metho</font></b><b><font size="3">d</font></b><font size="3"> </font><font size="3"><br>
+              April 2012, CARF Working Paper F-278, <br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3fd0c2c36328e9c3d194060eabe77e8624.html">Abstract/PDF</a> : CARF-F-278 </font>
+              <li><font size="3"><b>(15)Perturbative Expansion of FBSDE in an Incomplete Market with Stochastic Volatility</b><br>
+              February 2012, CARF Working Paper F-270,<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3ff6b7b77d76af4db279ac4bcf50a9b239.html">Abstract/PDF</a> : CARF-F-270 </font>
+              <li><font size="3"><b>(14)Clean Valuation Framework for the USD Silo -An implication for the forthcoming Standard Credit Support Annex (SCSA)-</b><br>
+              forthcoming as a contributing chapter in a RISK BOOK &quot;<i>Interest Rate Modeling After The Financial Crisis</i>&quot;<br>
+              December 2011, CARF Working Paper F-260,<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3f84a37a6ff9e4670a8c01f6e4135db208.html">Abstract/PDF</a> : CARF-F-260 </font>
+              <li><font size="3"><b>(13)Analytical Approximation for Non-linear FBSDEs with Perturbation Scheme</b><br>
+              forthcoming in <i>International Journal of Theoretical and Applied Finance</i> <br>
+              June 2011, CARF Working Paper F-248,<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3f760f67169a6ce7be732fd414198d0464.html">Abstract/PDF</a> : CARF-F-248 </font>
+              <li><font size="3"><b>(12)Collateralized CDS and Default Dependence -Implications for the Central Clearing</b>-<br>
+              forthcoming in <i>The Journal of Credit Risk</i><br>
+              April 2011, CARF Working Paper F-246,<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3f15f0e34a6d29e2d5765d27a1e5dd387a.html">Abstract/PDF</a> : CARF-F-246 </font>
+              <li><font size="3"><b>(11)Derivative Pricing under Asymmetric and Imperfect Collateralization, and CVA</b><br>
+              December 2010, CARF Working Paper F-240,<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3f71a321737d1c4d6cc19ed591cf846e25.html">Abstract/PDF</a> : CARF-F-240, arXiv:1101.5849, SSRN:1731763 (revised version) </font>
+              <li><font size="3"><b>(10)Choice of Collateral Currency</b><br>
+              January 2011, Risk Magazine, 120-125<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3f34e7079f5ea5c143fa28a784300888db.html">Abstract/PDF</a> : CARF-F-239 </font>
+              <li><font size="3"><b>(9)Modeling of Interest Rate Term Structures under Collateralization and its Implications</b><br>
+              September 2010, CARF Working Paper F-230<BR>
+              forthcoming in &quot;<i>Proceedings of KIER-TMU International Workshop on Financial Engineering,
+              2010</i>&quot;<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3fff3402335e2c304ca1df5ebd48a24fae.html">Abstract/PDF</a> : CARF-F-230 </font>
+              <li><font size="3"><b>(8)Collateral Posting and Choice of Collateral Currency - Implications
+              for Derivative Pricing and Risk Management</b></font><font size="3"><b>（発表資料）</b><br>
+              August 2010, KIER-TMU International Workshop on Financial Engineering 2010<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/o4.pdf">Download</a> </font>
+              <li><font size="3"><b>(7)「金融危機と金融工学」担保,ベーシススプレッドを考慮した金利の期間構造モデルの提案　（発表資料）</b><br>
+              July 2010, CARF諮問委員会<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/o3.pdf">Download</a> </font>
+              <li><font size="3"><b>(6)金融市場の変質とデリバティブ評価の問題点　（発表資料）</b><br>
+              May 2010, 金融庁 (Finance Service Agency) <br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/o2.pdf">Download</a> </font>
+              <li><font size="3"><b>(5)	Collateral Posting and Choice of Collateral Currency <br>
+              　　- Implications for Derivative Pricing and Risk Management</b><br>
+              May 2010, CARF Working Paper F-216, SSRN:1601866<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3fff1faa52c5846c791fd61beab19d53e1.html">Abstract/PDF</a> : CARF-F-216 </font>
+              <li><font size="3"><b>(4)	On the Term Structure of Interest Rates with Basis Spreads, Collateral and Multiple Currencies 　（発表資料）</b><br>
+              February 2010, SSRN:1556487<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/o1.pdf">Download</a> </font>
+              <li><font size="3"><b>(3) A Market Model of Interest Rates with Dynamic Basis Spreads in the
+              Presence of Collateral and multiple Currencies</b> <br>
+              December 2009, CARF Working Paper F-196, SSRN:1520619<br>
+              Wilmott Magazine Volume 2011, Issue 54, pp 61-73, 2011<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3fd8d3775c96880d285608c70319af9889.html">Abstract/PDF</a> : CARF-F-196 </font>
+              <li><font size="3"><b>(2) A Survey on Modeling and Analysis of Basis Swap</b> <br>
+              forthcoming in <i>Recent Advances in Financial Engineering 2011</i><br>
+              December 2009, CARF Working Paper F-195, SSRN:1520618<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3f4cca384b1aec4276c66efa3fd34a3899.html">Abstract/PDF</a> : CARF-F-195</font>
+              <li><font size="3"><b>(1) A Note on Construction of Multiple Swap Curves with and without Collaterall</b><br>
+              July 2009, CARF Working Paper F-154, SSRN:１440633, <br>
+              金融庁, FSAリサーチ・レビュー第6号<br>
+              <a href="http://www.carf.e.u-tokyo.ac.jp/workingpaper/detail.cgi_3f74dc7f11efaa156bc0ddd1253a521987.html">Abstract/PDF</a>: CARF-F-154 (preprint version)</font>
+            </ul>
+            <p><font size="3"><br>
+            3. 学会・セミナー等対外発表</font></p>
+            <ul style="list-style-type : none">
+			  <li><font size="3"><b>(21)An Asymptotic and Perturbative Expansion Approach in Finance</b><br>
+              Global Derivatives Trading & Risk Management 2014<br>
+			  May 13, 2014<br>
+			  Amsterdam, Holland<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/Akihiko_Takahashi_0513.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(20)Derivatives Pricing under Collateralization</b><br>
+              February 2013, Seminar in Chulalongkorn University<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/Seminar_0211_2013_f2.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(19)Derivative Pricing under Collateralization</b><br>
+              November 2012, Global Derivatives Trading &amp; Risk Management USA 2012,
+              Chicago, USA<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/AkihikoTakahashi_v3_Global_Derivatives_USA_2012.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(18)Derivatives Pricing under Collateralization</b><br>
+              July 2012, Quant Congress USA 2012, NY, USA <br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/Takahashi_v0710_2012.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(17)Choice of Collateral Currency</b><br>
+              May 2012, Counterparty Risk Frontiers: Collateral Damages, Paris, France
+              <br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/2012_May_Paris.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(16)An Asymptotic Expansion Approach to Derivatives Pricing</b><br>
+              April 2012, Global Derivatives Trading &amp; Risk Management 2012, Barcelona,
+              Spain <br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/AkihikoTakahashi_Web_Final.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(15)Pricing of Collateralized Derivatives</b><br>
+              December 2011, 2011年度中之島ワークショップ　金融工学・数理計量ファイナンスの諸問題 2011<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/Osaka_univ_2011.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(14)Derivative Pricing under Collateralization</b><br>
+              November 2011, Global Derivatives Trading &amp; Risk Management USA 2011,
+              Chicago, USA<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/Global_Derivatives_USA_2011_final.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(13)Derivative Pricing  under  Collateralisation<br>
+              　　「担保、ベーシススプレッドを考慮した金利の期間構造モデルの提案」</b><br>
+              September 2011, 科学研究費プロジェクト研究集会 「ファイナンス計量分析の新展開と日本の金融市場」<br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/0929_2011_Presentation.pdf">Download</a> (発表資料) </font>
+              <li><font size="3"><b>(12)Derivative Pricing and CVA under Collateralization</b><br>
+              September 2011, JAFEE　信用リスク理論研究部会セミナー</font>
+              <li><font size="3"><b>(11)Interest Rates With Basis Spreads, Collateral &amp; Multiple Currencies</b><br>
+              April 2011, Global Derivatives Trading &amp; Risk Management 2011 , Paris,
+              France <br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/ICBI_2011_April_2011_Paris.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(10)Derivative Pricing under Asymmetric and Imperfect Collateralization, and CVA</b><br>
+              March 2011, 日本銀行 (Bank of Japan) </font>
+              <li><font size="3"><b>(9)Derivative Pricing under Asymmetric and Imperfect Collateralization, and CVA</b><br>
+              March 2011, Young Researchers Workshop on Finance 2011 , Tokyo, Japan</font>
+              <li><font size="3"><b>(8)A Market Model of Interest Rates with Dynamic Basis spreads in the presence of Collateral and Multiple Currencies</b><br>
+              December 2010, Quantitative Methods in Finance , Sydney, Australia <br>
+              <a href="http://park.itc.u-tokyo.ac.jp/takahashi-lab/WPs/o6.pdf">Download</a> (発表資料)</font>
+              <li><font size="3"><b>(7)<a href="http://www.finansanalytiker.dk/default.asp?set_language=english">Den Danske Finansanalytikerforening</a>(Denish Society of Financial Analysts and CFA Denmark)</b>の以下の記事において，1. 発表論文・資料
+              の(1)が引用された．<br>
+              <a href="http://www.finansanalytiker.dk/dokumenter/presentationer/2010/Rentekurver/From%20curves%20to%20surfaces%20-%20to%20be%20published.pdf">From curves to surfaces, How plain vanilla grew complex</a><br>
+              October 2010</font>
+              <li><font size="3"><b>(6)Financial Times</b>の以下の記事において，CARFについて言及され，1. 発表論文・資料 の(3)がリンク，(5)が引用された．<br>
+              <a href="http://ftalphaville.ft.com/blog/2010/10/04/359491/euro-liquidity-and-the-implications-for-cash-collateral/">Euro liquidity and the implications for cash-collateral</a><br>
+              October 2010</font>
+              <li><font size="3"><b>(5)Collateral Posting and Choice of Collateral Currency - Implications
+              for Derivative Pricing and Risk Management</b><br>
+              August 2010, KIER-TMU International Workshop on Financial Engineering 2010</font>
+              <li><font size="3"><b>(4)「金融危機と金融工学」担保,ベーシススプレッドを考慮した金利の期間構造モデルの提案</b><br>
+              July 2010, CARF諮問委員会</font>
+              <li><font size="3"><b>(3)金融市場の変質とデリバティブ評価の問題点</b><br>
+              May 2010, 金融庁 (Finance Service Agency) </font>
+              <li><font size="3"><b>(2)A Market Model of Interest Rates with Dynamic Basis Spreads in the Presence
+              of Collateral and multiple Currencies</b> <br>
+              A. March 2010, 金融庁 (Finance Service Agency) <br>
+              B. March 2010, 日本銀行 (Bank of Japan)</font>
+              <li><font size="3"><b>(1)On the Term Structure of Interest Rates with Basis Spreads, Collateral and Multiple Currencies</b><br>
+              February 2010, International Workshop on Mathematical Finance </font>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- wrapper end --><!-- navi -->
+    <div id="hpb-nav">
+      <ul>
+        <li id="nav-toppage"><a href="home.html"><b><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝">Home </font>　</span></b><span class="en"></span></a>
+        <li id="nav-concept"><a href="research2.html"><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝"><b>Research(in English)</b></font></span><span class="en"></span></a>
+	<li id="nav-concept"><a href="research2j.html"><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝"><b>Research(in Japanese)</b></font></span><span class="en"></span></a>
+        <li id="nav-service"><a href="project1.html"><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝"><b>Project</b></font></span><span class="en"></span></a>
+        <li id="nav-news"><a href="conference_main.html"><span class="ja"><font size="+1" face="ＭＳ Ｐ明朝"><b>Conference/Seminar</b></font></span><span class="en"></span></a> 
+      </ul>
+    </div>
+    <!-- navi end --><!-- aside -->
+    <div id="hpb-aside">
+      <div id="banner">
+        <ul>
+          <li>
+        </ul>
+      </div>
+      <div id="companyinfo">
+        <h3>Office</h3>
+        <p>Economics Research Building, The University of Tokyo, 
+	7-3-1, Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan
+</p>      </div>
+    </div><!-- aside end -->
+  </div>
+  <!-- inner end --><!-- footer -->
+  <div id="hpb-footer">
+    <div id="hpb-footerMain">
+      <p><font color="#999999" size="1">c 2008 Akihiko Takahashi. All rights reserved.</font></p>
+    </div>
+    <div id="hpb-footerExtra1"></div>
+  </div>
+  <!-- footer end -->
+</div>
+<!-- container end --></body>
+</html></html>
